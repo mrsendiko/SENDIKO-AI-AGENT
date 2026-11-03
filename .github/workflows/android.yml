@@ -27,7 +27,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Ekstrak proyek
-        run: unzip -o SENDIKO_AI_AGENT_PROJECT.zip
+        run: run: unzip -o SENDIKO_PERBAIKAN.zip
 
       - name: Bangun APK
         run: gradle assembleDebug
